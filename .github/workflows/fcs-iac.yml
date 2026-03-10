@@ -45,7 +45,7 @@ jobs:
           # Add the path to the directory or file that you would like to scan.
           # For example `./kubernetes` for a directory of manifests 
           # or `main.tf` for Terraform
-          path: './ansible_playbook'
+          path: './ansible-playbook.yml'
           report_formats: sarif
           output_path: ./fcs-iac-results.sarif
         env:
