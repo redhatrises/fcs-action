@@ -40,7 +40,7 @@ jobs:
         uses: crowdstrike/fcs-action@0e9d7bba776ed4dc623f8d0c5f0888f36e090d90
         with:
           falcon_client_id: ${{ vars.FALCON_CLIENT_ID }}
-          falcon_region: 'us-1'
+          falcon_region: 'us-2'
           scan_type: iac
           # Add the path to the directory or file that you would like to scan.
           # For example `./kubernetes` for a directory of manifests 

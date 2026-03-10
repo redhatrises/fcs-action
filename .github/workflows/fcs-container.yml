@@ -43,7 +43,7 @@ jobs:
         uses: crowdstrike/fcs-action@0e9d7bba776ed4dc623f8d0c5f0888f36e090d90
         with:
           falcon_client_id: ${{ vars.FALCON_CLIENT_ID }}
-          falcon_region: 'us-1'
+          falcon_region: 'us-2'
           scan_type: image
           image: my/test-image
           report_formats: sarif
